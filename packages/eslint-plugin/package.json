@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/eslintrc": "^3.0.2",
     "@jest/globals": "^29.7.0",
     "@typescript-eslint/parser": "^7.6.0",
     "@typescript-eslint/rule-tester": "^7.6.0",

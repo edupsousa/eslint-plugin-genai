@@ -1,6 +1,6 @@
 import globals from "globals";
 import tseslint from "typescript-eslint";
-import genaiPlugin from "../dist/index.js";
+import genaiPlugin from "../eslint-plugin/dist/index.js";
 
 export default [
   {

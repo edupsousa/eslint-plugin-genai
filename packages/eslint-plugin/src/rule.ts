@@ -1,4 +1,4 @@
-import { AST_NODE_TYPES, TSESLint } from "@typescript-eslint/utils";
+import { TSESLint } from "@typescript-eslint/utils";
 
 type MessageIds =
   | "messageIdForSomeFailure"
