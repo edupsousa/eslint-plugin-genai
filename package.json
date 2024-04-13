@@ -5,5 +5,10 @@
     "packages": [
       "packages/*"
     ]
+  },
+  "scripts": {
+    "build-plugin": "yarn workspace eslint-plugin-genai build",
+    "lint-sample": "yarn workspace eslint-plugin-genai-sample-app lint",
+    "test-sample": "yarn build-plugin && yarn lint-sample"
   }
 }

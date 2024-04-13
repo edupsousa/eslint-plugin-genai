@@ -1,6 +1,6 @@
 import { TSESLint } from "@typescript-eslint/utils";
-import myRule from "./rule";
+import descriptiveFunctionName from "./rule";
 
 export const rules = {
-  "my-rule-name": myRule,
+  "descriptive-function-name": descriptiveFunctionName,
 } satisfies Record<string, TSESLint.RuleModule<string, Array<unknown>>>;

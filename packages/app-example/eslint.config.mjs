@@ -8,7 +8,7 @@ export default [
       globals: globals.browser,
     },
     plugins: { genai: genaiPlugin },
-    rules: { "genai/my-rule-name": "error" },
+    rules: { "genai/descriptive-function-name": "error" },
   },
 
   ...tseslint.configs.recommended,
